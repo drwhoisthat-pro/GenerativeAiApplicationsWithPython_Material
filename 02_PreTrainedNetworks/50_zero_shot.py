@@ -4,6 +4,7 @@ import pandas as pd
 
 #%% Classifier
 classifier = pipeline(task="zero-shot-classification", model="facebook/bart-large-mnli")
+
 # %% Data Preparation
 # first example: Jane Austen: Pride and Prejudice  (romantic novel)
 # second example: Lewis Carroll: Alice's Adventures in Wonderland (fantasy novel)
