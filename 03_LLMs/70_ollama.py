@@ -3,7 +3,7 @@ import ollama
 
 #%% ollama
 response = ollama.generate(model="gemma2:2b", 
-                           prompt="What is an LLM?")
+                           prompt="What is a LLM?")
 
 # %%
 from pprint import pprint
